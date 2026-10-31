@@ -4,8 +4,8 @@ CodeLlama 训练
 ---------------------
 GPU机器请使用已经安装兼容驱动的 CUDA PyTorch 的独立环境，安装 requirements.txt。
 
-  MODEL=modelpath \
-    DATA=datapath \
+  MODEL=modelpath \\
+    DATA=datapath \\
     PYTHON=python bash run_train.sh --epochs 1 --max-length 128 --remove-layers 23
 
 上述命令使用当前CUDA环境和人工数据，仅用于跑通流程。
